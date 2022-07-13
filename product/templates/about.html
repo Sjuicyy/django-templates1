@@ -1,0 +1,12 @@
+<html>
+    <p>this is about template</p>
+    <p>context item:</p>
+    {{ my_text }}, {{my_numb}}
+    <p>context ordered</p>
+    <ul>
+        {%for i in my_context %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ul>
+
+</html>
